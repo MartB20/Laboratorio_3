@@ -9,7 +9,7 @@ body {
 	font-family: 'Poppins';
 	font-size: 24px;
 	color: #2D1B19;
-	text-align:center;
+	text-align:justify;
 }
 header {
 	padding-top: 2%;
@@ -44,21 +44,28 @@ nav ul li a:hover {
 }
 a {
 	text-decoration: none;
-	color: #1C2B3D;
+	color: #1A3066;
 }
-a:hover {
-	color: #19556F;
-}
-p{
-	padding-bottom: 2em;
-	display:inline-block;
+	a:hover {
+		color: #488ABA;
+	}
+p {
+	margin-left: 80px;
+	margin-right: 80px;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 1em;
 }
 h1 {
 	padding-bottom: 0.5em;
 	font-size: 36px;
+	text-align:center;
 }
 h2 {
-	font-size: 30px
+	font-size: 30px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
 }
 .icon { display: none; }
 section {
@@ -70,12 +77,21 @@ section {
 	background-image: url(../images/Doily-7.png);
 }
 article img {
-	padding-right: 3em;
-	padding-left: 3em;
+	padding-right: 6em;
+	padding-left: 8.5em;
+	padding-bottom: 1em;
 }
-.episodio p {
+/*.episodio p {
 	margin-left: 80px;
 	margin-right: 80px;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom:1em;
+}*/
+.episodio img {
+	padding-right: 12em;
+	padding-left: 12em;
+	padding-bottom:1em;
 }
 .principal {
 	width: 100%;
@@ -87,13 +103,21 @@ article img {
 	align-items: center;
 /*/	color: #fcca84;		*/
 }
-.personajes{
-	display:flex;
-	font-size: 36px;
+.personajes {
+	display: flex;
+	font-size: 32px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.personajes p{
+	text-align:center;
+	padding-left:4em;
 }
 .personajes img {
-	padding-right: 1em;
-	padding-left: 1em;
+	margin-left: 80px;
+	margin-right: 30px;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 .principal div img{
 	width: 70%;
