@@ -89,6 +89,7 @@ article img {
 }
 .personajes{
 	display:flex;
+	font-size: 36px;
 }
 .personajes img {
 	padding-right: 1em;
