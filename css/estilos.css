@@ -7,7 +7,7 @@ body {
 	background-color: #D7B5B0;
 	background-image: url(../images/flowerwall-2-dark.jpg);
 	font-family: 'Poppins';
-	font-size: 0.2rem;
+	font-size: 24px;
 	color: #2D1B19;
 	text-align:center;
 }
@@ -51,16 +51,18 @@ a:hover {
 }
 p{
 	padding-bottom: 2em;
-	font-size: 36px;
 	display:inline-block;
 }
 h1 {
 	padding-bottom: 0.5em;
-	font-size: 48px;
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px
 }
 .icon { display: none; }
 section {
-	font-size: 48px;
+/*	font-size: 48px;	*/
 	max-width: 1300px;
 	width: 90%;
 	margin-left: auto;
@@ -72,7 +74,6 @@ article img {
 	padding-left: 3em;
 }
 .episodio p {
-	font-size: 36px;
 	margin-left: 80px;
 	margin-right: 80px;
 }
