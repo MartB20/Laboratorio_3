@@ -66,7 +66,7 @@ h2 {
 	font-size: 30px;
 	text-align: center;
 	padding-top: 1em;
-	padding-bottom: 0.5em;
+	padding-bottom: 1em;
 }
 .icon { display: none; }
 section {
@@ -82,13 +82,18 @@ article img {
 	padding-left: 8.5em;
 	padding-bottom: 1em;
 }
-/*.episodio p {
-	margin-left: 80px;
-	margin-right: 80px;
-	padding-left: 1em;
+.descripcion{
+	display:flex;
+}
+.descripcion img {
 	padding-right: 1em;
-	padding-bottom:1em;
-}*/
+	padding-left: 8em;
+}
+.descripcion p{
+	margin:0em;
+	padding-left:0em;
+	margin-right:7em;
+}
 .episodio img {
 	padding-right: 12em;
 	padding-left: 12em;
