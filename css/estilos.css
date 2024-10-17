@@ -78,8 +78,7 @@ section {
 	background-image: url(../images/Doily-7.png);
 }
 article img {
-	padding-right: 6em;
-	padding-left: 8.5em;
+	padding-left: 8em;
 	padding-bottom: 1em;
 }
 .descripcion{
@@ -99,14 +98,10 @@ article img {
 	padding-left: 12em;
 	padding-bottom:1em;
 }
-.principal {
-	width: 100%;
-	height: 650px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.principal {	/*es lo que antes estaba en article img*/
+	padding-right: 6em;
+	padding-left: 8.5em;
+	padding-bottom: 1em;
 }
 .personajes {
 	display: flex;
@@ -136,21 +131,21 @@ article img {
 	width: 70%;
 }
 .secundario{
-	margin-top: 5%;
 	display: flex;
 }
-.secundario div{
+.secundario article {
 	width: 33%;
 	padding: 2%;
 	text-align: center;
 }
-.secundario div a img{
+.secundario p{
+	padding-left:4em;
+}
+.secundario article a img {
 	width: 100%;
 	margin-bottom: 2rem;
-}
-h4{
-	font-size: 1.5rem;
-	text-transform: uppercase;
+	padding-right: 0em;
+	padding-left: 8em;
 }
 footer {
 	display: flex;
