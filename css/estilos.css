@@ -81,6 +81,24 @@ article img {
 	padding-left: 8em;
 	padding-bottom: 1em;
 }
+form{
+	margin-left:12em;
+	padding-bottom:20px;
+}
+form button {
+	height: 30px;
+	width: 60px;
+	margin-left: 9em;
+	color: #fcca84;
+	font-family: 'Poppins';
+	background-color: #2D1B19;;
+}
+.contacto{
+	display:flex;
+}
+.contacto img{
+	padding-left:4em;
+}
 .descripcion{
 	display:flex;
 }
@@ -149,10 +167,11 @@ article img {
 }
 footer {
 	display: flex;
-	justify-content: center;
+	justify-content:space-evenly;
 	align-items: center;
 	height: 350px;
 	background-image: url(../images/Raised-Panels-1-dark.jpg);
+	color: #fcca84;
 }
 footer img{
 	max-width: 2.5rem;
@@ -160,9 +179,11 @@ footer img{
 	height: auto;
 	margin-right: .5%;
 }
+.fa-brands{
 
-@media (max-width: 480px) { 
-header{
+}
+@media (max-width: 480px) {
+	header{
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
