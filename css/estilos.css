@@ -12,6 +12,7 @@ body {
 	text-align:justify;
 }
 header {
+	display: flex;
 	padding-top: 2%;
 	padding-right: 5%;
 	padding-bottom: 2%;
@@ -24,6 +25,13 @@ header {
 	background-color: #faebc7;
 	background-image: url(../images/Bottom-panel-1-dark.jpg);
 	color: #fcca84;
+}
+header a {
+	margin-top: 1em;
+	color: #fcca84;
+}
+header a:hover {
+	color: #fff0b3;
 }
 nav ul{
 	margin-top: 3%;
@@ -49,6 +57,9 @@ a {
 a:hover {
 	color: #488ABA;
 }
+.icon {
+	display: none;
+}
 p {
 	margin-left: 80px;
 	margin-right: 80px;
@@ -68,9 +79,7 @@ h2 {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-.icon { display: none; }
 section {
-/*	font-size: 48px;	*/
 	max-width: 1300px;
 	width: 90%;
 	margin-left: auto;
@@ -91,12 +100,11 @@ form button {
 	margin-left: 9em;
 	color: #fcca84;
 	font-family: 'Poppins';
-	background-color: #2D1B19;;
+	background-color: #2D1B19;
 }
 .logo {
 	font-weight: 700;
 	padding-right: 2em;
-	font-size: 1.4rem;
 }
 .contacto{
 	display:flex;
@@ -121,7 +129,7 @@ form button {
 	padding-left: 12em;
 	padding-bottom:1em;
 }
-.principal {	/*es lo que antes estaba en article img*/
+.principal {
 	padding-right: 6em;
 	padding-left: 8.5em;
 	padding-bottom: 1em;
@@ -184,11 +192,8 @@ footer img{
 	height: auto;
 	margin-right: .5%;
 }
-.fa-brands{
-
-}
 @media (max-width: 480px) {
-	header{
+header{
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -196,6 +201,9 @@ footer img{
 	position: sticky;
 	top: 0;
 	z-index: 1;
+}
+header a{
+	margin-top:0.5em;
 }
 header div, header a {
 	flex: 1 0 50%;
@@ -207,6 +215,12 @@ header nav {
 	display: block;
 	padding-right: 0.6rem;
 	text-align: right;
+}
+p {
+	padding-left: 0em;
+	padding-right: 0em;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 nav ul {
 	display: none;
@@ -222,31 +236,43 @@ nav.responsive ul li {
 nav.responsive ul li a {
 	padding-right: 0;
 }
-section{
+section {
 	max-width: 480px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	background-image: url(../images/Doily-7-mini-3.jpg);
 }
-.principal{
-	height: 250px;
-	padding: 10%;
+.principal {
+	height: 350px;
+	padding-top: 10%;
+	padding-bottom:10%;
+	padding-left:0em;
+	padding-right:0em;
+	width: 320px;
 }
 .secundario{
 	margin-top: 1%;
-	display: block;
-}
-.secundario div{
-	width: 100%;
-}
-.secundario div a img{
-	margin-bottom: 1rem;
+	display:block;
 }
 h2{
-	font-size: 1rem;
+	font-size: 36px;
 }
-h4{
-	font-size: 1rem;
+article img{
+	padding-left:0.5em;
+}
+a img{
+	margin-right:0em;
+}
+form{
+	margin-left:1em;
+	margin-top:1em;
+}
+form button{
+	margin-left:8em;
+}
+.contacto img{
+	display:none;
 }
 footer{
 	height: 80px;
