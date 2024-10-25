@@ -12,13 +12,10 @@
 </head>
 <body>
     <header>
-        <!--      <div>
-               <img src="images/logo.png" alt="Logo Pixar">
-           </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>        -->
+        <a class="logo" href="index.html">La Maldicion de Bly Manor</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-list"></i></a>
         <nav id="menu_bar" class="">
             <ul>
-                <li><a class="logo" href="index.html">La Maldicion de Bly Manor</a></li>
                 <li><a href="Episodios.html">Episodios</a></li>
                 <li><a href="Personajes.html">Personajes</a></li>
                 <li><a href="Galeria.html">Galería</a></li>
@@ -61,7 +58,7 @@
         </article>
         <h2>Flora Wingrave</h2>
         <article class="descripcion">
-            <img src="images/flora1.jpg" alt="flora jugando con su casa de muñecas"/>
+            <img src="images/flora1.jpg" alt="flora jugando con su casa de muñecas" />
             <p>
                 La hija menor de Dominic y Charlotte Wingrave, Flora es una niña optimista con habitos extraños: disfruta de hacer muñecos basados en los
                 demas habitantes de la mansion y de posicionarlos en su casa de muñecas, la cual esta basada en la propia mansion.
@@ -70,7 +67,7 @@
         </article>
         <h2>Miles Wingrave</h2>
         <article class="descripcion">
-            <img src="images/miles1.jpg" alt="miles en su uniforme del internado"/>
+            <img src="images/miles1.jpg" alt="miles en su uniforme del internado" />
             <p>
                 El Hijo mayor de Dominic y Charlotte Wingrave, Miles es un niño excentrico que vive junto con su hermana en la mansion tras su expulsion
                 de un internado debido a su comportamiento.
@@ -93,5 +90,15 @@
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-instagram"></i>
     </footer>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu_bar");
+            if (x.className === "") {
+                x.className += " responsive";
+            } else {
+                x.className = "";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -193,6 +193,9 @@ footer img{
 	margin-right: .5%;
 }
 @media (max-width: 480px) {
+body{
+	text-align:left;
+}
 header{
 	align-items: center;
 	justify-content: space-around;
@@ -254,6 +257,35 @@ section {
 .secundario{
 	margin-top: 1%;
 	display:block;
+}
+.personajes{
+	display:block;
+	font-size:24px;
+}
+.personajes article{
+	margin-left:0em;
+	padding-bottom:2em;
+}
+.personajes img{
+	width:85%;
+	height:75%;
+	padding-left:1em;
+}
+.episodio img{
+	padding-right:0em;
+	padding-left:0em;
+	width:100%;
+	height:75%;
+}
+.descripcion{
+	display:block;
+}
+.descripcion p{
+	margin-left:50px;
+	margin-right:50px;
+}
+.descripcion img{
+	padding-left:0.5em;
 }
 h2{
 	font-size: 36px;

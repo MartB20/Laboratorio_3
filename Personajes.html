@@ -12,13 +12,10 @@
 </head>
 <body>
     <header>
-        <!--      <div>
-               <img src="images/logo.png" alt="Logo Pixar">
-           </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>        -->
+        <a class="logo" href="index.html">La Maldicion de Bly Manor</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-list"></i></a>
         <nav id="menu_bar" class="">
             <ul>
-                <li><a class="logo" href="index.html">La Maldicion de Bly Manor</a></li>
                 <li><a href="Episodios.html">Episodios</a></li>
                 <li><a href="Personajes.html">Personajes</a></li>
                 <li><a href="Galeria.html">Galería</a></li>
@@ -28,12 +25,14 @@
     </header>
     <section>
         <h1>Personajes</h1>
-        <p>Debido a la cantidad de personajes, y a la posibilidad de spoilers, se puede acceder a informacion sobre ellos de acuerdo a su
-           estado vital</p>
+        <p>
+            Debido a la cantidad de personajes, y a la posibilidad de spoilers, se puede acceder a informacion sobre ellos de acuerdo a su
+            estado vital
+        </p>
     </section>
     <section class="personajes">
         <article>
-            <a href="vivos.html"><img src="images/vivos6.jpg" alt=""></a>
+            <a href="vivos.html"><img src="images/vivos6.jpg" alt="una foto de Rebecca y Peter, vivos"></a>
             <p>Habitantes de Bly</p>
         </article>
         <article>
@@ -47,5 +46,15 @@
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-instagram"></i>
     </footer>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu_bar");
+            if (x.className === "") {
+                x.className += " responsive";
+            } else {
+                x.className = "";
+            }
+        }
+    </script>
 </body>
 </html>

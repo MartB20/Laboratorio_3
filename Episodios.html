@@ -12,9 +12,10 @@
 </head>
 <body>
     <header>
+        <a class="logo" href="index.html">La Maldicion de Bly Manor</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-list"></i></a>
         <nav id="menu_bar" class="">
             <ul>
-                <li><a class="logo" href="index.html">La Maldicion de Bly Manor</a></li>
                 <li><a href="Episodios.html">Episodios</a></li>
                 <li><a href="Personajes.html">Personajes</a></li>
                 <li><a href="Galeria.html">Galería</a></li>
@@ -133,5 +134,15 @@
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-instagram"></i>
     </footer>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu_bar");
+            if (x.className === "") {
+                x.className += " responsive";
+            } else {
+                x.className = "";
+            }
+        }
+    </script>
 </body>
 </html>

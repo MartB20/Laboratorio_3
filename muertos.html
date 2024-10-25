@@ -12,13 +12,10 @@
 </head>
 <body>
     <header>
-        <!--      <div>
-               <img src="images/logo.png" alt="Logo Pixar">
-           </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>        -->
+        <a class="logo" href="index.html">La Maldicion de Bly Manor</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-list"></i></a>
         <nav id="menu_bar" class="">
             <ul>
-                <li><a class="logo" href="index.html">La Maldicion de Bly Manor</a></li>
                 <li><a href="Episodios.html">Episodios</a></li>
                 <li><a href="Personajes.html">Personajes</a></li>
                 <li><a href="Galeria.html">Galería</a></li>
@@ -29,7 +26,7 @@
     <section>
         <h1> Fantasmas de Bly </h1>
         <p>
-            en esta pagina se presentaran los personajes de la serie que comienzan la serie como fantasmas, con la menor cantidad de spoilers posibles; 
+            en esta pagina se presentaran los personajes de la serie que comienzan la serie como fantasmas, con la menor cantidad de spoilers posibles;
             si se desea saber que ocurre a cada uno en el transcurso de la serie dirijase a la pagina "Episodios".
         </p>
         <h2>Hannah Grose</h2>
@@ -82,5 +79,15 @@
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-instagram"></i>
     </footer>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu_bar");
+            if (x.className === "") {
+                x.className += " responsive";
+            } else {
+                x.className = "";
+            }
+        }
+    </script>
 </body>
 </html>
