@@ -66,6 +66,7 @@ p {
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-bottom: 1em;
+	line-height:1.8;
 }
 h1 {
 	padding-bottom: 0.5em;
@@ -123,6 +124,7 @@ form button {
 	margin:0em;
 	padding-left:0em;
 	margin-right:7em;
+	text-align:left;
 }
 .episodio img {
 	padding-right: 12em;
@@ -179,18 +181,26 @@ form button {
 	padding-left: 8em;
 }
 footer {
-	display: flex;
-	justify-content:space-evenly;
 	align-items: center;
 	height: 350px;
 	background-image: url(../images/Raised-Panels-1-dark.jpg);
+}
+footer div {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top:3.5em;
+	padding-bottom:6em;
+}
+footer p {
+	color: #fcca84;
+	text-align:center;
+	font-size:18px;
+}
+footer a {
 	color: #fcca84;
 }
-footer img{
-	max-width: 2.5rem;
-	width: 100%;
-	height: auto;
-	margin-right: .5%;
+footer a:hover {
+	color: #fff0b3;
 }
 @media (max-width: 480px) {
 body{
@@ -303,13 +313,14 @@ form{
 form button{
 	margin-left:8em;
 }
+.contacto{
+	display:block;
+}
 .contacto img{
-	display:none;
+	padding-left:2em;
 }
-footer{
-	height: 80px;
-}
-footer img{
-	max-width: 1.5rem;
+footer p{
+	padding-bottom:0em;
+	line-height:initial;
 }
 }
