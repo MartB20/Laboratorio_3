@@ -166,20 +166,6 @@ form button {
 .secundario{
 	display: flex;
 }
-.secundario article {
-	width: 33%;
-	padding: 2%;
-	text-align: center;
-}
-.secundario p{
-	padding-left:4em;
-}
-.secundario article a img {
-	width: 100%;
-	margin-bottom: 2rem;
-	padding-right: 0em;
-	padding-left: 8em;
-}
 footer {
 	align-items: center;
 	height: 350px;
@@ -266,7 +252,16 @@ section {
 }
 .secundario{
 	margin-top: 1%;
-	display:block;
+	display:flex;
+}
+.secundario img {
+	width: 85%;
+	height: 85%;
+}
+.ultimosecundario img {
+	width: 80%;
+	height: 85%;
+	padding-left: 2.5em;
 }
 .personajes{
 	display:block;
@@ -275,6 +270,7 @@ section {
 .personajes article{
 	margin-left:0em;
 	padding-bottom:2em;
+	padding-right:0em;
 }
 .personajes img{
 	width:85%;
