@@ -219,7 +219,7 @@ p {
 	padding-left: 0em;
 	padding-right: 0em;
 	margin-left: 50px;
-	margin-right: 50px;
+	margin-right: 20px;
 }
 nav ul {
 	display: none;
@@ -288,7 +288,7 @@ section {
 }
 .descripcion p{
 	margin-left:50px;
-	margin-right:50px;
+	margin-right:20px;
 }
 .descripcion img{
 	padding-left:0.5em;
