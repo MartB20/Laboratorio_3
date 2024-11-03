@@ -318,5 +318,7 @@ form button{
 footer p{
 	padding-bottom:0em;
 	line-height:initial;
+	margin-left:10px;
+	margin-right:10px;
 }
 }
